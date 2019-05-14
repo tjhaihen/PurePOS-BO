@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{219AA39C-B0EE-4CA2-A033-60FDD1A8ACAC}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Raven.BussinessRules</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>
+    </RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Raven.BussinessRules.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Raven.BussinessRules.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\Common\Common.vbproj">
+      <Name>Common</Name>
+      <Project>{EE2E0956-7B93-4C4B-B90E-9DB36391C6E5}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\bussinessRulesBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Components\APAnalysis.vb" />
+    <Compile Include="Components\APInvoice.vb" />
+    <Compile Include="Components\APPaymentDt.vb" />
+    <Compile Include="Components\APPaymentHd.vb" />
+    <Compile Include="Components\ARReceivingDt.vb" />
+    <Compile Include="Components\ARReceivingHd.vb" />
+    <Compile Include="Components\Bank.vb" />
+    <Compile Include="Components\Branch.vb" />
+    <Compile Include="Components\CommonSetting.vb" />
+    <Compile Include="Components\Company.vb" />
+    <Compile Include="Components\Dashboard.vb" />
+    <Compile Include="Components\DebitCreditNote.vb" />
+    <Compile Include="Components\DeliveryOrderDt.vb" />
+    <Compile Include="Components\DeliveryOrderHd.vb" />
+    <Compile Include="Components\DeliveryZoneHd.vb" />
+    <Compile Include="Components\EDC.vb" />
+    <Compile Include="Components\EmergencySupportContact.vb" />
+    <Compile Include="Components\Entities.vb" />
+    <Compile Include="Components\EntitiesContact.vb" />
+    <Compile Include="Components\EntitiesItem.vb" />
+    <Compile Include="Components\Favourite.vb" />
+    <Compile Include="Components\ID.vb" />
+    <Compile Include="Components\InventoryTxn.vb" />
+    <Compile Include="Components\Item.vb" />
+    <Compile Include="Components\ItemBalance.vb" />
+    <Compile Include="Components\ItemCategory.vb" />
+    <Compile Include="Components\ItemFactorTemplate.vb" />
+    <Compile Include="Components\ItemHistory.vb" />
+    <Compile Include="Components\ItemPhoto.vb" />
+    <Compile Include="Components\ItemPrice.vb" />
+    <Compile Include="Components\ItemROP.vb" />
+    <Compile Include="Components\ItemSubCategory.vb" />
+    <Compile Include="Components\ItemUnit.vb" />
+    <Compile Include="Components\MarginRangeDt.vb" />
+    <Compile Include="Components\MarginRangeHd.vb" />
+    <Compile Include="Components\MemberBenefit.vb" />
+    <Compile Include="Components\MemberBenefitFormula.vb" />
+    <Compile Include="Components\Menu.vb" />
+    <Compile Include="Components\MutationDt.vb" />
+    <Compile Include="Components\MutationHd.vb" />
+    <Compile Include="Components\PaymentHd.vb" />
+    <Compile Include="Components\Price.vb" />
+    <Compile Include="Components\PrintCrystalReport.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Components\PrinterZebra.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Components\Printer\RawPrinter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Components\PrintForm.vb" />
+    <Compile Include="Components\ProductionDt.vb" />
+    <Compile Include="Components\ProductionFormulaDt.vb" />
+    <Compile Include="Components\ProductionFormulaHd.vb" />
+    <Compile Include="Components\ProductionHd.vb" />
+    <Compile Include="Components\PromotionBrandNameID.vb" />
+    <Compile Include="Components\PromotionDt.vb" />
+    <Compile Include="Components\PromotionHd.vb" />
+    <Compile Include="Components\PromotionItemCategoryID.vb" />
+    <Compile Include="Components\PromotionItemSubCategoryID.vb" />
+    <Compile Include="Components\PurchaseOrderDt.vb" />
+    <Compile Include="Components\PurchaseOrderHd.vb" />
+    <Compile Include="Components\PurchaseRequestDt.vb" />
+    <Compile Include="Components\PurchaseRequestHd.vb" />
+    <Compile Include="Components\PurchaseReturnDt.vb" />
+    <Compile Include="Components\PurchaseReturnHd.vb" />
+    <Compile Include="Components\PurchaseUnitDt.vb" />
+    <Compile Include="Components\PurchaseUnitHd.vb" />
+    <Compile Include="Components\ReceiptCustomText.vb" />
+    <Compile Include="Components\RecordProperties.vb" />
+    <Compile Include="Components\Report.vb" />
+    <Compile Include="Components\SalesInvoicedt.vb" />
+    <Compile Include="Components\SalesInvoiceHd.vb" />
+    <Compile Include="Components\SalesReturnDt.vb" />
+    <Compile Include="Components\SalesReturnHd.vb" />
+    <Compile Include="Components\SalesUnitDt.vb" />
+    <Compile Include="Components\SalesUnitHd.vb" />
+    <Compile Include="Components\Search.vb" />
+    <Compile Include="Components\SettingVar.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Components\StdField.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Components\UploadDownload.vb" />
+    <Compile Include="Components\User.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Components\UserGroup.vb" />
+    <Compile Include="Components\UserGroupInventoryTxn.vb" />
+    <Compile Include="Components\UserGroupMenu.vb" />
+    <Compile Include="Components\SearchList.vb" />
+    <Compile Include="Components\UserGroupReport.vb" />
+    <Compile Include="Components\UserGroupWarehouse.vb" />
+    <Compile Include="Components\Warehouse.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

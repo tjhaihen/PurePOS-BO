@@ -1,0 +1,28 @@
+<HTML>
+	<HEAD>
+		<TITLE>Search Result: REGISTRASI</TITLE>
+		<SCRIPT SRC="srchlocc.aspx" LANGUAGE="javascript"></SCRIPT>
+		<script src="srchlocc.js" language="javascript"></script>
+	</HEAD>
+	<SCRIPT LANGUAGE=javascript>
+		function initUrl()
+		{
+			main.location = applicationUrl()+'?bt=rj_reg1&fn=Tanggal&sv=%';
+		}
+		function setDefValue()
+		{		
+			try
+			{
+				main.document.getElementById('txtFilterValueDlg').value = GetTodayDate();
+			}
+				catch (e) {}
+			
+		}
+	</SCRIPT>
+	
+	<FRAMESET ROWS="0,*" ONLOAD="initUrl();">
+		<FRAME NAME="header" SRC="" SCROLLING="no" NORESIZE>
+		<FRAME NAME="main" SRC="" onload="setDefValue();">
+	</FRAMESET>
+</HTML>
+

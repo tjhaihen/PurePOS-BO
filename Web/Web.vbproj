@@ -1,0 +1,913 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9C1ADA0F-6AE8-47DF-8D60-2911978B00DD}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Web</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>
+    </RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Web.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Web.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine">
+      <HintPath>..\..\..\_dll\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource">
+      <HintPath>..\..\..\_dll\CrystalDecisions.ReportSource.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared">
+      <HintPath>..\..\..\_dll\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Web">
+      <HintPath>..\..\..\_dll\CrystalDecisions.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility">
+      <Name>Microsoft.VisualBasic.Compatibility</Name>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Extensions.Design" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <ProjectReference Include="..\PurePOS\BussinessRules\BussinessRules.vbproj">
+      <Name>BussinessRules</Name>
+      <Project>{219AA39C-B0EE-4CA2-A033-60FDD1A8ACAC}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\PurePOS\Common\Common.vbproj">
+      <Name>Common</Name>
+      <Project>{EE2E0956-7B93-4C4B-B90E-9DB36391C6E5}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\PurePOS\Security\Security.vbproj">
+      <Name>Security</Name>
+      <Project>{98AC7B9B-E2ED-43F9-A3EC-D3F8436AC6E4}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\PurePOS\SystemFrameWork\SystemFrameWork.vbproj">
+      <Name>SystemFrameWork</Name>
+      <Project>{BA89C258-AFC5-41C7-88F5-638DF632B835}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <Reference Include="Telerik.Web.UI, Version=2010.1.415.20, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\_dll\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.HtmlControls" />
+    <Import Include="System.Web.UI.WebControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="base\ModuleBase.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="base\PageBase.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CRReportViewer.aspx.designer.vb">
+      <DependentUpon>CRReportViewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CRReportViewer.aspx.vb">
+      <DependentUpon>CRReportViewer.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrMsg.aspx.vb">
+      <DependentUpon>ErrMsg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.vb">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Global.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="incl\calendarModule.ascx.vb">
+      <DependentUpon>calendarModule.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="incl\calendarModule2.ascx.vb">
+      <DependentUpon>calendarModule2.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="incl\copyRightModule.ascx.vb">
+      <DependentUpon>copyRightModule.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="incl\CSSToolbar.ascx.designer.vb">
+      <DependentUpon>CSSToolbar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="incl\CSSToolbar.ascx.vb">
+      <DependentUpon>CSSToolbar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="incl\RadMenu.ascx.designer.vb">
+      <DependentUpon>RadMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="incl\RadMenu.ascx.vb">
+      <DependentUpon>RadMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="incl\SearchList.aspx.designer.vb">
+      <DependentUpon>SearchList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="incl\SearchList.aspx.vb">
+      <DependentUpon>SearchList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JSDLGGlobalVar.aspx.vb">
+      <DependentUpon>JSDLGGlobalVar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logon.aspx.vb">
+      <DependentUpon>Logon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.vb">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.vb">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="remoteLogon.aspx.vb">
+      <DependentUpon>remoteLogon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="searchresults.aspx.vb">
+      <DependentUpon>searchresults.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="search\srchlocc.aspx.vb">
+      <DependentUpon>srchlocc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\About.aspx.vb">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Administrator\UserManagement\UserAccount\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Administrator\UserManagement\UserGroup\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Administrator\UserManagement\UserGroup\UserGroupAuthority.aspx.vb">
+      <DependentUpon>UserGroupAuthority.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Finance\AccountPayable\APInvoice\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Finance\AccountPayable\APPayment\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Finance\AccountPayable\APVerification\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Finance\AccountReceivable\ARInvoicing\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Finance\AccountReceivable\ARReceiving\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Finance\DebitCreditNote\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Inquiry\APInquiry\APInfo.aspx.vb">
+      <DependentUpon>APInfo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="secure\Inquiry\APInquiry\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Inquiry\SalesUnitInquiryAndReprint\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Inventory\BalanceInformation\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Inventory\Mutation\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Inventory\Production\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Inventory\StockOpname\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Main.aspx.vb">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Master\Branch\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Master\CommonSetting\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Master\Finance\BankAccount\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Master\Finance\DeliveryZone\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Master\Finance\EDC\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Master\Finance\Entities\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Master\Finance\MarginRangeSetting\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Master\Finance\MarginRangeSetting\MarginRangedt.aspx.vb">
+      <DependentUpon>MarginRangedt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Master\Finance\MemberBenefit\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Master\Finance\Promotion\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Master\Finance\Promotion\PromotionDt.aspx.vb">
+      <DependentUpon>PromotionDt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Master\ItemDataSetting\ItemCatalogue\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Master\ItemDataSetting\ItemCategory\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Master\ItemDataSetting\ItemCategory\ItemSubCategory.aspx.vb">
+      <DependentUpon>ItemSubCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Master\ItemDataSetting\ItemList\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Master\ItemDataSetting\ItemList\GetItemPic.aspx.vb">
+      <DependentUpon>GetItemPic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Master\ItemDataSetting\ItemUnit\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Master\ProductionFormula\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Master\Warehouse\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\PrivacyPolicy.aspx.vb">
+      <DependentUpon>PrivacyPolicy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Purchasing\PurchaseOrderManagement\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Purchasing\PurchaseOrderManagement\POManagementDetail.aspx.vb">
+      <DependentUpon>POManagementDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Purchasing\PurchaseOrder\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Purchasing\PurchaseRequestManagement\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Purchasing\PurchaseRequest\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Purchasing\PurchaseReturn\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Purchasing\PurchaseUnit\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Reports\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Sitemap.aspx.vb">
+      <DependentUpon>Sitemap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\TermsAndConditions.aspx.vb">
+      <DependentUpon>TermsAndConditions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Transaction\DeliveryOrderManagement\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Transaction\DeliveryOrderManagement\DOManagementDetail.aspx.vb">
+      <DependentUpon>DOManagementDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Transaction\DeliveryOrder\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Transaction\SalesReturn\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Transaction\SalesUnit\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Utility\ChangePassword\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\Utility\Upload\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowCR.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Content Include="CRReportViewer.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="ErrMsg.aspx" />
+    <Content Include="ErrorPage.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="incl\calendarModule.ascx" />
+    <Content Include="incl\calendarModule2.ascx" />
+    <Content Include="incl\copyRightModule.ascx" />
+    <Content Include="incl\CSSToolbar.ascx" />
+    <Content Include="incl\RadMenu.ascx" />
+    <Content Include="incl\SearchList.aspx" />
+    <Content Include="JSDLGGlobalVar.aspx" />
+    <Content Include="Logon.aspx" />
+    <Content Include="Logout.aspx" />
+    <Content Include="remoteLogon.aspx" />
+    <Content Include="searchresults.aspx" />
+    <Content Include="search\s056.htm" />
+    <Content Include="search\s057.htm" />
+    <Content Include="search\SAppointment.htm" />
+    <Content Include="search\SAppointmentWithNorm.htm" />
+    <Content Include="search\SAppointmentWithoutNorm.htm" />
+    <Content Include="search\SAtur.htm" />
+    <Content Include="search\SBank.htm" />
+    <Content Include="search\SbyrPiutInst.htm" />
+    <Content Include="search\SByrPiutPbd.htm" />
+    <Content Include="search\SCaraKeluar.htm" />
+    <Content Include="search\SDiagnosa.htm" />
+    <Content Include="search\SDokterAnes.htm" />
+    <Content Include="search\SDokterPerPoli.htm" />
+    <Content Include="search\SDokterPerPoliPerTgl.htm" />
+    <Content Include="search\SDtd.htm" />
+    <Content Include="search\SGroupPoliklinik.htm" />
+    <Content Include="search\SGudang.htm" />
+    <Content Include="search\SInsOutStanding.htm" />
+    <Content Include="search\SInstansi.htm" />
+    <Content Include="search\SItem.htm" />
+    <Content Include="search\SJasaMedik.htm" />
+    <Content Include="search\SJasaMedisGroup.htm" />
+    <Content Include="search\SKasus.htm" />
+    <Content Include="search\SKdDokter.htm" />
+    <Content Include="search\SKdnKeluar.htm" />
+    <Content Include="search\SKelas.htm" />
+    <Content Include="search\SKodePos.htm" />
+    <Content Include="search\SMasterObat.htm" />
+    <Content Include="search\SMedis.htm" />
+    <Content Include="search\SMedisRi.htm" />
+    <Content Include="search\SMedisRj.htm" />
+    <Content Include="search\SMember.htm" />
+    <Content Include="search\SMorfologi.htm" />
+    <Content Include="search\SMtxDiagPoli.htm" />
+    <Content Include="search\SNoBatchByKdItem.htm" />
+    <Content Include="search\SNoBukti.htm" />
+    <Content Include="search\SNoBuktiTransPaket.htm" />
+    <Content Include="search\SNoInvoiceIns.htm" />
+    <Content Include="search\SNoInvoicePri.htm" />
+    <Content Include="search\SNoJOByNoReg.htm" />
+    <Content Include="search\SNomorRM.htm" />
+    <Content Include="search\SPasien.htm" />
+    <Content Include="search\SPbdOutStanding.htm" />
+    <Content Include="search\SPEG.htm" />
+    <Content Include="search\SPengirim.htm" />
+    <Content Include="search\SPiutangInstansi.htm" />
+    <Content Include="search\SPiutangPribadi.htm" />
+    <Content Include="search\SPlafon.htm" />
+    <Content Include="search\SPoliklinik.htm" />
+    <Content Include="search\SPoliklinikAktif.htm" />
+    <Content Include="search\sPoliPerDokter.htm" />
+    <Content Include="search\srchlocc.aspx" />
+    <Content Include="search\srchlocc.js" />
+    <Content Include="search\SRegistrasi.htm" />
+    <Content Include="search\SRegistrasiClose.htm" />
+    <Content Include="search\SRegistrasiKB.htm" />
+    <Content Include="search\SRegistrasiMD.htm" />
+    <Content Include="search\SREGTB.htm" />
+    <Content Include="search\SSMF.htm" />
+    <Content Include="search\STarifGroup.htm" />
+    <Content Include="search\STarifPelayanan.htm" />
+    <Content Include="search\STdkLanjut.htm" />
+    <Content Include="search\STindakan.htm" />
+    <Content Include="search\s_agama.htm" />
+    <Content Include="search\s_aktiva.htm" />
+    <Content Include="search\s_anggotainst.htm" />
+    <Content Include="search\s_bayar.htm" />
+    <Content Include="search\s_bayarbynoreg.htm" />
+    <Content Include="search\s_bayarreg.htm" />
+    <Content Include="search\s_Group.htm">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="search\s_jasamedis.htm" />
+    <Content Include="search\s_jenisdiagnosa.htm" />
+    <Content Include="search\s_JenisKasus.htm" />
+    <Content Include="search\s_kewarganegaraan.htm" />
+    <Content Include="search\s_layanpnj.htm" />
+    <Content Include="search\s_layanpoli.htm" />
+    <Content Include="search\s_logistikpnj.htm" />
+    <Content Include="search\s_logistikrj.htm" />
+    <Content Include="search\s_mdpaketmtx.htm" />
+    <Content Include="search\s_obatpnj.htm" />
+    <Content Include="search\s_obatpoli.htm" />
+    <Content Include="search\s_pekerjaan.htm" />
+    <Content Include="search\s_pendidikan.htm" />
+    <Content Include="search\s_pnjmedis.htm" />
+    <Content Include="search\s_politrhd.htm" />
+    <Content Include="search\s_propinsi.htm" />
+    <Content Include="search\s_statuskawin.htm" />
+    <Content Include="search\s_suku.htm" />
+    <Content Include="search\s_tenagaahli.htm" />
+    <Content Include="search\s_test.htm" />
+    <Content Include="search\s_Transaksi.htm" />
+    <Content Include="search\s_transpaket.htm" />
+    <Content Include="secure\About.aspx" />
+    <Content Include="secure\Administrator\UserManagement\UserAccount\default.aspx" />
+    <Content Include="secure\Administrator\UserManagement\UserGroup\default.aspx" />
+    <Content Include="secure\Administrator\UserManagement\UserGroup\UserGroupAuthority.aspx" />
+    <Content Include="secure\Finance\AccountPayable\APInvoice\default.aspx" />
+    <Content Include="secure\Finance\AccountPayable\APInvoice\RadGridCreditNote.incl.aspx" />
+    <Content Include="secure\Finance\AccountPayable\APInvoice\RadGridDPAmount.incl.aspx" />
+    <Content Include="secure\Finance\AccountPayable\APInvoice\RadGridGetCN.incl.aspx" />
+    <Content Include="secure\Finance\AccountPayable\APInvoice\RadGridGetDP.incl.aspx" />
+    <Content Include="secure\Finance\AccountPayable\APInvoice\RadGridGetPU.incl.aspx" />
+    <Content Include="secure\Finance\AccountPayable\APInvoice\RadGridPurchaseUnit.incl.aspx" />
+    <Content Include="secure\Finance\AccountPayable\APPayment\default.aspx" />
+    <Content Include="secure\Finance\AccountPayable\APVerification\default.aspx" />
+    <Content Include="secure\Finance\AccountReceivable\ARInvoicing\default.aspx" />
+    <Content Include="secure\Finance\AccountReceivable\ARInvoicing\RadGridDebitNote.incl.aspx" />
+    <Content Include="secure\Finance\AccountReceivable\ARInvoicing\RadGridGetDN.incl.aspx" />
+    <Content Include="secure\Finance\AccountReceivable\ARReceiving\default.aspx" />
+    <Content Include="secure\Finance\DebitCreditNote\default.aspx" />
+    <Content Include="secure\Inquiry\APInquiry\APInfo.aspx" />
+    <Content Include="secure\Inquiry\APInquiry\default.aspx" />
+    <Content Include="secure\Inquiry\SalesUnitInquiryAndReprint\default.aspx" />
+    <Content Include="secure\Inventory\BalanceInformation\default.aspx" />
+    <Content Include="secure\Inventory\Mutation\default.aspx" />
+    <Content Include="secure\Inventory\Production\default.aspx" />
+    <Content Include="secure\Inventory\StockOpname\default.aspx" />
+    <Content Include="secure\Main.aspx" />
+    <Content Include="secure\Master\Branch\default.aspx" />
+    <Content Include="secure\Master\CommonSetting\default.aspx" />
+    <Content Include="secure\Master\Finance\BankAccount\default.aspx" />
+    <Content Include="secure\Master\Finance\DeliveryZone\default.aspx" />
+    <Content Include="secure\Master\Finance\EDC\default.aspx" />
+    <Content Include="secure\Master\Finance\Entities\default.aspx" />
+    <Content Include="secure\Master\Finance\MarginRangeSetting\default.aspx" />
+    <Content Include="secure\Master\Finance\MarginRangeSetting\MarginRangedt.aspx" />
+    <Content Include="secure\Master\Finance\MemberBenefit\default.aspx" />
+    <Content Include="secure\Master\Finance\Promotion\default.aspx" />
+    <Content Include="secure\Master\Finance\Promotion\PromotionDt.aspx" />
+    <Content Include="secure\Master\ItemDataSetting\ItemCatalogue\default.aspx" />
+    <Content Include="secure\Master\ItemDataSetting\ItemCategory\default.aspx" />
+    <Content Include="secure\Master\ItemDataSetting\ItemCategory\ItemSubCategory.aspx" />
+    <Content Include="secure\Master\ItemDataSetting\ItemList\default.aspx" />
+    <Content Include="secure\Master\ItemDataSetting\ItemList\GetItemPic.aspx" />
+    <Content Include="secure\Master\ItemDataSetting\ItemUnit\default.aspx" />
+    <Content Include="secure\Master\ProductionFormula\default.aspx" />
+    <Content Include="secure\Master\Warehouse\default.aspx" />
+    <Content Include="secure\PrivacyPolicy.aspx" />
+    <Content Include="secure\Purchasing\PurchaseOrderManagement\default.aspx" />
+    <Content Include="secure\Purchasing\PurchaseOrderManagement\POManagementDetail.aspx" />
+    <Content Include="secure\Purchasing\PurchaseOrder\default.aspx" />
+    <Content Include="secure\Purchasing\PurchaseRequestManagement\default.aspx" />
+    <Content Include="secure\Purchasing\PurchaseRequest\default.aspx" />
+    <Content Include="secure\Purchasing\PurchaseReturn\default.aspx" />
+    <Content Include="secure\Purchasing\PurchaseUnit\default.aspx" />
+    <Content Include="secure\Reports\default.aspx" />
+    <Content Include="secure\Sitemap.aspx" />
+    <Content Include="secure\TermsAndConditions.aspx" />
+    <Content Include="secure\Transaction\DeliveryOrderManagement\default.aspx" />
+    <Content Include="secure\Transaction\DeliveryOrderManagement\DOManagementDetail.aspx" />
+    <Content Include="secure\Transaction\DeliveryOrder\default.aspx" />
+    <Content Include="secure\Transaction\SalesReturn\default.aspx" />
+    <Content Include="secure\Transaction\SalesUnit\default.aspx" />
+    <Content Include="secure\Utility\ChangePassword\default.aspx" />
+    <Content Include="secure\Utility\Upload\default.aspx" />
+    <Content Include="secure\Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="Default.aspx.resx">
+      <DependentUpon>Default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrMsg.aspx.resx">
+      <DependentUpon>ErrMsg.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorPage.aspx.resx">
+      <DependentUpon>ErrorPage.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="incl\calendarModule.ascx.resx">
+      <DependentUpon>calendarModule.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="incl\calendarModule2.ascx.resx">
+      <DependentUpon>calendarModule2.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="incl\copyRightModule.ascx.resx">
+      <DependentUpon>copyRightModule.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JSDLGGlobalVar.aspx.resx">
+      <DependentUpon>JSDLGGlobalVar.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logon.aspx.resx">
+      <DependentUpon>Logon.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="remoteLogon.aspx.resx">
+      <DependentUpon>remoteLogon.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchresults.aspx.resx">
+      <DependentUpon>searchresults.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="search\srchlocc.aspx.resx">
+      <DependentUpon>srchlocc.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\About.aspx.resx">
+      <DependentUpon>About.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Administrator\UserManagement\UserAccount\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Administrator\UserManagement\UserGroup\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Administrator\UserManagement\UserGroup\UserGroupAuthority.aspx.resx">
+      <DependentUpon>UserGroupAuthority.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Finance\AccountPayable\APVerification\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Inquiry\APInquiry\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Inquiry\SalesUnitInquiryAndReprint\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Inventory\Production\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Main.aspx.resx">
+      <DependentUpon>Main.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Master\Branch\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Master\CommonSetting\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Master\Finance\BankAccount\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Master\Finance\DeliveryZone\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Master\Finance\EDC\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Master\Finance\Entities\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Master\Finance\MarginRangeSetting\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Master\Finance\MarginRangeSetting\MarginRangedt.aspx.resx">
+      <DependentUpon>MarginRangedt.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Master\Finance\MemberBenefit\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Master\Finance\Promotion\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Master\Finance\Promotion\PromotionDt.aspx.resx">
+      <DependentUpon>PromotionDt.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Master\ItemDataSetting\ItemCatalogue\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Master\ItemDataSetting\ItemCategory\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Master\ItemDataSetting\ItemCategory\ItemSubCategory.aspx.resx">
+      <DependentUpon>ItemSubCategory.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Master\ItemDataSetting\ItemList\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Master\ItemDataSetting\ItemList\GetItemPic.aspx.resx">
+      <DependentUpon>GetItemPic.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Master\ItemDataSetting\ItemUnit\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Master\ProductionFormula\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Master\Warehouse\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\PrivacyPolicy.aspx.resx">
+      <DependentUpon>PrivacyPolicy.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Purchasing\PurchaseOrderManagement\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Purchasing\PurchaseOrder\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Purchasing\PurchaseRequestManagement\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Purchasing\PurchaseRequest\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Reports\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Sitemap.aspx.resx">
+      <DependentUpon>Sitemap.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\TermsAndConditions.aspx.resx">
+      <DependentUpon>TermsAndConditions.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Transaction\DeliveryOrderManagement\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Transaction\DeliveryOrderManagement\DOManagementDetail.aspx.resx">
+      <DependentUpon>DOManagementDetail.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Transaction\DeliveryOrder\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Utility\ChangePassword\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\Utility\Upload\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+    <Folder Include="secure\Master\ItemDataSetting\ItemList\ImgTmp\" />
+    <Folder Include="secure\Utility\Download\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1108</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/purePOS</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <UserProperties UseAjaxifiedTemplates="True" UseJQuerySupport="True" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

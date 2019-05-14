@@ -1,0 +1,235 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Web
+</name>
+</assembly>
+<members>
+<member name="F:Raven.Web.Logout.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.CSSToolbar.TMPnlNew">
+	<summary>
+TMPnlNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.CSSToolbar.lbtnNew">
+	<summary>
+lbtnNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.CSSToolbar.TMPnlSave">
+	<summary>
+TMPnlSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.CSSToolbar.lbtnSave">
+	<summary>
+lbtnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.CSSToolbar.chkIsAllowAdd">
+	<summary>
+chkIsAllowAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.CSSToolbar.chkIsAllowEdit">
+	<summary>
+chkIsAllowEdit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.CSSToolbar.TMPnlDelete">
+	<summary>
+TMPnlDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.CSSToolbar.lbtnDelete">
+	<summary>
+lbtnDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.CSSToolbar.chkIsAllowDelete">
+	<summary>
+chkIsAllowDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.CSSToolbar.TMPnlApprove">
+	<summary>
+TMPnlApprove control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.CSSToolbar.lbtnApprove">
+	<summary>
+lbtnApprove control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.CSSToolbar.chkIsAllowApprove">
+	<summary>
+chkIsAllowApprove control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.CSSToolbar.TMPnlVoid">
+	<summary>
+TMPnlVoid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.CSSToolbar.lbtnVoid">
+	<summary>
+lbtnVoid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.CSSToolbar.chkIsAllowVoid">
+	<summary>
+chkIsAllowVoid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.CSSToolbar.TMPnlPrint">
+	<summary>
+TMPnlPrint control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.CSSToolbar.lbtnPrint">
+	<summary>
+lbtnPrint control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.CSSToolbar.chkIsAllowPrint">
+	<summary>
+chkIsAllowPrint control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.CSSToolbar.TMPnlPrevious">
+	<summary>
+TMPnlPrevious control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.CSSToolbar.lbtnPrevious">
+	<summary>
+lbtnPrevious control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.CSSToolbar.TMPnlNext">
+	<summary>
+TMPnlNext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.CSSToolbar.lbtnNext">
+	<summary>
+lbtnNext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.CSSToolbar.lblMenuID">
+	<summary>
+lblMenuID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.RadMenu.ScriptManager">
+	<summary>
+ScriptManager control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.RadMenu.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.RadMenu.lblCompanyName">
+	<summary>
+lblCompanyName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.RadMenu.RadMenu1">
+	<summary>
+RadMenu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

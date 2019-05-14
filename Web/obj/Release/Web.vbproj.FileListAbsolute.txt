@@ -1,0 +1,146 @@
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Web.dll
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Web.xml
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Raven.BussinessRules.dll
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Raven.Common.dll
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Raven.Security.dll
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Raven.SystemFrameWork.dll
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Telerik.Web.UI.dll
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Raven.Security.pdb
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Raven.Security.xml
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Raven.BussinessRules.pdb
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Raven.BussinessRules.xml
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Raven.Common.pdb
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Raven.Common.xml
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Raven.SystemFrameWork.pdb
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Raven.SystemFrameWork.xml
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Telerik.Web.UI.xml
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\ResolveAssemblyReference.cache
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web._Default.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.ErrMsg.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.ErrorPage.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Global.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.calendarModule.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.calendarModule2.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.copyRightModule.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.JSDLGGlobalVar.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Logon.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.remoteLogin.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.searchresults.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.srchlocc.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.About.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Administrator.User.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Administrator.UserManagement.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Administrator.UserGroupAuthority.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Finance.AccountPayable.APVerification.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Inquiry.APInquiry.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Inquiry.SalesUnitInquiryandReprint.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Inventory.Production.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Main.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.Branch.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.CommonSetting.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.Finance.BankAccount.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.Finance.DeliveryZone.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.Finance.EDC.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.Finance.Entities.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.Finance.MarginRangeSetting.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.Finance.MarginRangedt.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.Finance.MemberBenefit.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.Finance.Promotion.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.Finance.Promotiondt.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.ItemDataSetting.ItemCatalogue.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.ItemDataSetting.ItemCategory.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.ItemDataSetting.ItemSubCategory.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.ItemDataSetting.ItemList.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.ItemDataSetting.GetItemPic.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.ItemDataSetting.ItemUnit.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.ProductionFormula.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.Warehouse.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.PrivacyPolicy.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Purchasing.PurchaseOrderManagement.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Purchasing.PurchaseOrder.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Purchasing.PurchaseRequestManagement.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Purchasing.PurchaseRequest.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Reports.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Sitemap.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.TermsAndConditions.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Transaction.DeliveryOrderManagement.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Purchasing.DOManagementDetail.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Transaction.DeliveryOrder.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Administrator.ChangePassword.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Utility.Upload.resources
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Web.vbproj.GenerateResource.Cache
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Web.dll
+C:\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Web.xml
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Web.dll
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Web.xml
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Raven.BussinessRules.dll
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Raven.Common.dll
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Raven.Security.dll
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Raven.SystemFrameWork.dll
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Telerik.Web.UI.dll
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Raven.Security.pdb
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Raven.Security.xml
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Raven.BussinessRules.pdb
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Raven.BussinessRules.xml
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Raven.Common.pdb
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Raven.Common.xml
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Raven.SystemFrameWork.pdb
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Raven.SystemFrameWork.xml
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\bin\Telerik.Web.UI.xml
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web._Default.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.ErrMsg.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.ErrorPage.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Global.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.calendarModule.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.calendarModule2.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.copyRightModule.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.JSDLGGlobalVar.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Logon.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.remoteLogin.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.searchresults.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.srchlocc.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.About.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Administrator.User.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Administrator.UserManagement.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Administrator.UserGroupAuthority.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Finance.AccountPayable.APVerification.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Inquiry.APInquiry.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Inquiry.SalesUnitInquiryandReprint.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Inventory.Production.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Main.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.Branch.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.CommonSetting.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.Finance.BankAccount.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.Finance.DeliveryZone.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.Finance.EDC.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.Finance.Entities.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.Finance.MarginRangeSetting.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.Finance.MarginRangedt.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.Finance.MemberBenefit.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.Finance.Promotion.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.Finance.Promotiondt.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.ItemDataSetting.ItemCatalogue.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.ItemDataSetting.ItemCategory.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.ItemDataSetting.ItemSubCategory.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.ItemDataSetting.ItemList.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.ItemDataSetting.GetItemPic.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.ItemDataSetting.ItemUnit.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.ProductionFormula.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Master.Warehouse.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.PrivacyPolicy.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Purchasing.PurchaseOrderManagement.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Purchasing.PurchaseOrder.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Purchasing.PurchaseRequestManagement.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Purchasing.PurchaseRequest.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Reports.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Sitemap.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.TermsAndConditions.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Transaction.DeliveryOrderManagement.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Purchasing.DOManagementDetail.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Transaction.DeliveryOrder.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Administrator.ChangePassword.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Raven.Web.Secure.Utility.Upload.resources
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Web.vbproj.GenerateResource.Cache
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Web.dll
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\Web\obj\Release\Web.xml

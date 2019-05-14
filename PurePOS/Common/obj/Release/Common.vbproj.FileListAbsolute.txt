@@ -1,0 +1,16 @@
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\Common\bin\Raven.Common.dll
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\Common\bin\Raven.Common.xml
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\Common\bin\Raven.SystemFrameWork.dll
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\Common\bin\Raven.SystemFrameWork.pdb
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\Common\bin\Raven.SystemFrameWork.xml
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\Common\obj\Release\ResolveAssemblyReference.cache
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\Common\obj\Release\Raven.Common.dll
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\Common\obj\Release\Raven.Common.xml
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\Common\bin\Raven.Common.dll
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\Common\bin\Raven.Common.xml
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\Common\bin\Raven.SystemFrameWork.dll
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\Common\bin\Raven.SystemFrameWork.pdb
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\Common\bin\Raven.SystemFrameWork.xml
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\Common\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\Common\obj\Release\Raven.Common.dll
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\Common\obj\Release\Raven.Common.xml

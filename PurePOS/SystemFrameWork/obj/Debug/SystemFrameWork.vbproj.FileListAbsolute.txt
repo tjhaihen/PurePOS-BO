@@ -1,0 +1,19 @@
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\SystemFrameWork\bin\Raven.SystemFrameWork.dll
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\SystemFrameWork\bin\Raven.SystemFrameWork.pdb
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\SystemFrameWork\bin\Raven.SystemFrameWork.xml
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\SystemFrameWork\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\SystemFrameWork\obj\Debug\Raven.SystemFrameWork.dll
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\SystemFrameWork\obj\Debug\Raven.SystemFrameWork.xml
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\SystemFrameWork\obj\Debug\Raven.SystemFrameWork.pdb
+D:\Personal\my_projects\Cempaka Buah\03.01. Realization\POS BO Application\PurePOS BO Solution\PurePOS\PurePOS\SystemFrameWork\bin\Raven.SystemFrameWork.dll
+D:\Personal\my_projects\Cempaka Buah\03.01. Realization\POS BO Application\PurePOS BO Solution\PurePOS\PurePOS\SystemFrameWork\bin\Raven.SystemFrameWork.pdb
+D:\Personal\my_projects\Cempaka Buah\03.01. Realization\POS BO Application\PurePOS BO Solution\PurePOS\PurePOS\SystemFrameWork\bin\Raven.SystemFrameWork.xml
+D:\Personal\my_projects\Cempaka Buah\03.01. Realization\POS BO Application\PurePOS BO Solution\PurePOS\PurePOS\SystemFrameWork\obj\Debug\Raven.SystemFrameWork.dll
+D:\Personal\my_projects\Cempaka Buah\03.01. Realization\POS BO Application\PurePOS BO Solution\PurePOS\PurePOS\SystemFrameWork\obj\Debug\Raven.SystemFrameWork.xml
+D:\Personal\my_projects\Cempaka Buah\03.01. Realization\POS BO Application\PurePOS BO Solution\PurePOS\PurePOS\SystemFrameWork\obj\Debug\Raven.SystemFrameWork.pdb
+D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\SystemFrameWork\bin\Raven.SystemFrameWork.dll
+D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\SystemFrameWork\bin\Raven.SystemFrameWork.pdb
+D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\SystemFrameWork\bin\Raven.SystemFrameWork.xml
+D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\SystemFrameWork\obj\Debug\Raven.SystemFrameWork.dll
+D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\SystemFrameWork\obj\Debug\Raven.SystemFrameWork.xml
+D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\SystemFrameWork\obj\Debug\Raven.SystemFrameWork.pdb

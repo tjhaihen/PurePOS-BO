@@ -1,0 +1,52 @@
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.BussinessRules.dll
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.BussinessRules.pdb
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.BussinessRules.xml
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.Common.dll
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.SystemFrameWork.dll
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.SystemFrameWork.pdb
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.SystemFrameWork.xml
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.Common.pdb
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.Common.xml
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\obj\Debug\ResolveAssemblyReference.cache
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\obj\Debug\Raven.BussinessRules.dll
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\obj\Debug\Raven.BussinessRules.xml
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\obj\Debug\Raven.BussinessRules.pdb
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.BussinessRules.dll
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.BussinessRules.pdb
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.BussinessRules.xml
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.Common.dll
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.SystemFrameWork.dll
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.SystemFrameWork.pdb
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.SystemFrameWork.xml
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.Common.pdb
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.Common.xml
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\obj\Debug\Raven.BussinessRules.dll
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\obj\Debug\Raven.BussinessRules.xml
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\obj\Debug\Raven.BussinessRules.pdb
+D:\Personal\my_projects\Cempaka Buah\03.01. Realization\POS BO Application\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.BussinessRules.dll
+D:\Personal\my_projects\Cempaka Buah\03.01. Realization\POS BO Application\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.BussinessRules.pdb
+D:\Personal\my_projects\Cempaka Buah\03.01. Realization\POS BO Application\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.BussinessRules.xml
+D:\Personal\my_projects\Cempaka Buah\03.01. Realization\POS BO Application\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.Common.dll
+D:\Personal\my_projects\Cempaka Buah\03.01. Realization\POS BO Application\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.SystemFrameWork.dll
+D:\Personal\my_projects\Cempaka Buah\03.01. Realization\POS BO Application\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.Common.pdb
+D:\Personal\my_projects\Cempaka Buah\03.01. Realization\POS BO Application\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.Common.xml
+D:\Personal\my_projects\Cempaka Buah\03.01. Realization\POS BO Application\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.SystemFrameWork.pdb
+D:\Personal\my_projects\Cempaka Buah\03.01. Realization\POS BO Application\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.SystemFrameWork.xml
+D:\Personal\my_projects\Cempaka Buah\03.01. Realization\POS BO Application\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\obj\Debug\BussinessRules.vbprojResolveAssemblyReference.cache
+D:\Personal\my_projects\Cempaka Buah\03.01. Realization\POS BO Application\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\obj\Debug\Raven.BussinessRules.dll
+D:\Personal\my_projects\Cempaka Buah\03.01. Realization\POS BO Application\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\obj\Debug\Raven.BussinessRules.xml
+D:\Personal\my_projects\Cempaka Buah\03.01. Realization\POS BO Application\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\obj\Debug\Raven.BussinessRules.pdb
+D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\BussinessRules\bin\Raven.BussinessRules.dll
+D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\BussinessRules\bin\Raven.BussinessRules.pdb
+D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\BussinessRules\bin\Raven.BussinessRules.xml
+D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\BussinessRules\bin\Raven.Common.dll
+D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\BussinessRules\bin\Raven.SystemFrameWork.dll
+D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\BussinessRules\bin\Raven.Common.pdb
+D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\BussinessRules\bin\Raven.Common.xml
+D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\BussinessRules\bin\Raven.SystemFrameWork.pdb
+D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\BussinessRules\bin\Raven.SystemFrameWork.xml
+D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\BussinessRules\obj\Debug\BussinessRules.vbprojResolveAssemblyReference.cache
+D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\BussinessRules\obj\Debug\Raven.BussinessRules.dll
+D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\BussinessRules\obj\Debug\Raven.BussinessRules.xml
+D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\BussinessRules\obj\Debug\Raven.BussinessRules.pdb

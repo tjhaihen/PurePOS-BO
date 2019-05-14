@@ -1,0 +1,34 @@
+<HTML>
+	<HEAD>
+		<TITLE>Search Result: JASA MEDIS</TITLE>
+		<SCRIPT SRC="srchlocc.aspx" LANGUAGE="javascript"></SCRIPT>
+	</HEAD>
+	<SCRIPT LANGUAGE="javascript">
+		<!--
+	function getParm(string,parm) {
+		// returns value of parm from string
+		var startPos = string.indexOf(parm + "=");
+		if (startPos > -1) {
+			startPos = startPos + parm.length + 1;
+			var endPos = string.indexOf("&",startPos);
+			if (endPos == -1)
+				endPos = string.length;
+			return unescape(string.substring(startPos,endPos));
+		}
+		return '';
+	}
+
+	function InitUrl() {
+		var passed = location.search.substring(1);
+		//var url = "/omc_rj/searchresults2.aspx?bt=dp1&fn=Poliklinik&fn1=Poliklinik&sv=*&kds=";
+		var url = applicationUrl()+'?bt=rj_jasa1&fn=Kode&fn1=Kode&sv=%&kgj=';
+		main.location = url + getParm(passed,'kgj');
+	}
+	
+//-->
+	</SCRIPT>
+	<FRAMESET ROWS="0,*" ONLOAD="InitUrl();">
+		<FRAME NAME="header" SRC="" SCROLLING="no" NORESIZE>
+		<FRAME NAME="main" SRC="">
+	</FRAMESET>
+</HTML>

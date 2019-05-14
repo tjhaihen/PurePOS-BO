@@ -1,0 +1,22 @@
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.BussinessRules.dll
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.BussinessRules.xml
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.Common.dll
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.SystemFrameWork.dll
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.SystemFrameWork.pdb
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.SystemFrameWork.xml
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.Common.pdb
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.Common.xml
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\obj\Release\ResolveAssemblyReference.cache
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\obj\Release\Raven.BussinessRules.dll
+C:\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\obj\Release\Raven.BussinessRules.xml
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.BussinessRules.dll
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.BussinessRules.xml
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.Common.dll
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.SystemFrameWork.dll
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.SystemFrameWork.pdb
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.SystemFrameWork.xml
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.Common.pdb
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\bin\Raven.Common.xml
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\obj\Release\Raven.BussinessRules.dll
+C:\Users\Abell Kwok\Data\PurePOS\PurePOS BO Solution\PurePOS\PurePOS\BussinessRules\obj\Release\Raven.BussinessRules.xml
