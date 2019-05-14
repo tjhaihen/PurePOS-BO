@@ -13,7 +13,7 @@ Namespace Raven.BussinessRules
         Private _ItemFactor As Decimal
         Private _UserInsert, _UserUpdate, _UserDelete As String
         Private _InsertDate, _UpdateDate, _DeleteDate As DateTime
-        Private _IsDeleted As Boolean
+        Private _IsDeleted, _IsAllowEditQty As Boolean
 #End Region
 
         Public Sub New()
@@ -28,10 +28,10 @@ Namespace Raven.BussinessRules
             Dim cmdToExecute As SqlCommand = New SqlCommand
 
             cmdToExecute.CommandText = "INSERT INTO ProductionFormulaDt " & _
-                                       "(ID, FormulaID, ItemSeqNo, ItemUnitID, ItemFactor, Qty, " & _
+                                       "(ID, FormulaID, ItemSeqNo, ItemUnitID, ItemFactor, Qty, IsAllowEditQty, " & _
                                        "UserInsert, InsertDate, " & _
                                        "UserUpdate, UpdateDate, UserDelete, DeleteDate, IsDeleted ) " & _
-                                       "VALUES (@ID, @FormulaID, @ItemSeqNo, @ItemUnitID, @ItemFactor, @Qty, " & _
+                                       "VALUES (@ID, @FormulaID, @ItemSeqNo, @ItemUnitID, @ItemFactor, @Qty, @IsAllowEditQty, " & _
                                        "@UserInsert, getdate(), " & _
                                        "@UserUpdate, getdate(), '', '', 0 ) "
             cmdToExecute.CommandType = CommandType.Text
@@ -47,6 +47,7 @@ Namespace Raven.BussinessRules
                 cmdToExecute.Parameters.Add("@ItemUnitID", _ItemUnitID)
                 cmdToExecute.Parameters.Add("@ItemFactor", _ItemFactor)
                 cmdToExecute.Parameters.Add("@Qty", _Qty)
+                cmdToExecute.Parameters.Add("@IsAllowEditQty", _IsAllowEditQty)
                 cmdToExecute.Parameters.Add("@UserInsert", _UserInsert)
                 cmdToExecute.Parameters.Add("@UserUpdate", _UserUpdate)
 
@@ -75,6 +76,7 @@ Namespace Raven.BussinessRules
                                         "ItemUnitID = @ItemUnitID, " & _
                                         "ItemFactor = @ItemFactor, " & _
                                         "Qty = @Qty, " & _
+                                        "IsAllowEditQty = @IsAllowEditQty, " & _
                                         "UserUpdate = @UserUpdate, " & _
                                         "UpdateDate = GetDate() " & _
                                         "WHERE ID = @ID"
@@ -89,6 +91,7 @@ Namespace Raven.BussinessRules
                 cmdToExecute.Parameters.Add("@ItemUnitID", _ItemUnitID)
                 cmdToExecute.Parameters.Add("@ItemFactor", _ItemFactor)
                 cmdToExecute.Parameters.Add("@Qty", _Qty)
+                cmdToExecute.Parameters.Add("@IsAllowEditQty", _IsAllowEditQty)
                 cmdToExecute.Parameters.Add("@UserUpdate", _UserUpdate)
 
                 ' // Open connection.
@@ -195,6 +198,7 @@ Namespace Raven.BussinessRules
                     _ItemUnitID = CType(toReturn.Rows(0)("ItemUnitID"), String)
                     _ItemFactor = CType(toReturn.Rows(0)("ItemFactor"), Decimal)
                     _Qty = CType(toReturn.Rows(0)("Qty"), Decimal)
+                    _IsAllowEditQty = CType(toReturn.Rows(0)("IsAllowEditQty"), Boolean)
                     _UserInsert = CType(toReturn.Rows(0)("UserInsert"), String)
                     _InsertDate = CType(toReturn.Rows(0)("InsertDate"), DateTime)
                     _UserUpdate = CType(toReturn.Rows(0)("UserUpdate"), String)
@@ -372,6 +376,15 @@ Namespace Raven.BussinessRules
             End Set
         End Property
 
+        Public Property [IsAllowEditQty]() As Boolean
+            Get
+                Return _IsAllowEditQty
+            End Get
+            Set(ByVal Value As Boolean)
+                _IsAllowEditQty = Value
+            End Set
+        End Property
+
         Public Property [UserInsert]() As String
             Get
                 Return _UserInsert
@@ -425,7 +438,6 @@ Namespace Raven.BussinessRules
                 _DeleteDate = Value
             End Set
         End Property
-
 
         Public Property [IsDeleted]() As Boolean
             Get

@@ -38,3 +38,13 @@ D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\Common\obj\Debug\Common.vbprojR
 D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\Common\obj\Debug\Raven.Common.dll
 D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\Common\obj\Debug\Raven.Common.xml
 D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\Common\obj\Debug\Raven.Common.pdb
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\Common\bin\Raven.Common.dll
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\Common\bin\Raven.Common.pdb
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\Common\bin\Raven.Common.xml
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\Common\bin\Raven.SystemFrameWork.dll
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\Common\bin\Raven.SystemFrameWork.pdb
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\Common\bin\Raven.SystemFrameWork.xml
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\Common\obj\Debug\Common.vbprojResolveAssemblyReference.cache
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\Common\obj\Debug\Raven.Common.dll
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\Common\obj\Debug\Raven.Common.xml
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\Common\obj\Debug\Raven.Common.pdb

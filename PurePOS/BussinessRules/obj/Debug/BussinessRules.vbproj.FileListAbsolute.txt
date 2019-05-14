@@ -50,3 +50,16 @@ D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\BussinessRules\obj\Debug\Bussin
 D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\BussinessRules\obj\Debug\Raven.BussinessRules.dll
 D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\BussinessRules\obj\Debug\Raven.BussinessRules.xml
 D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\BussinessRules\obj\Debug\Raven.BussinessRules.pdb
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\BussinessRules\bin\Raven.BussinessRules.dll
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\BussinessRules\bin\Raven.BussinessRules.pdb
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\BussinessRules\bin\Raven.BussinessRules.xml
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\BussinessRules\bin\Raven.Common.dll
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\BussinessRules\bin\Raven.SystemFrameWork.dll
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\BussinessRules\bin\Raven.Common.pdb
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\BussinessRules\bin\Raven.Common.xml
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\BussinessRules\bin\Raven.SystemFrameWork.pdb
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\BussinessRules\bin\Raven.SystemFrameWork.xml
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\BussinessRules\obj\Debug\BussinessRules.vbprojResolveAssemblyReference.cache
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\BussinessRules\obj\Debug\Raven.BussinessRules.dll
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\BussinessRules\obj\Debug\Raven.BussinessRules.xml
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\BussinessRules\obj\Debug\Raven.BussinessRules.pdb

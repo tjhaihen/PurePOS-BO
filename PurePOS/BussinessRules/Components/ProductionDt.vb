@@ -288,10 +288,12 @@ Namespace Raven.BussinessRules
                                        "begin " & _
                                            "SELECT pd.*, " & _
                                            "isnull(i.ItemID,'') AS ItemID, " & _
-                                           "isnull(i.ItemName,'') AS ItemName " & _
+                                           "isnull(i.ItemName,'') AS ItemName, " & _
+                                           "pfd.IsAllowEditQty " & _
                                            "FROM ProductionHd ph " & _
                                            "INNER JOIN ProductionDt pd ON pd.ProductionNo = ph.ProductionNo " & _
                                            "LEFT JOIN Item i ON i.ItemSeqNo = pd.ItemSeqNo " & _
+                                           "INNER JOIN ProductionFormulaDt pfd ON ph.FormulaID = pfd.FormulaID AND pd.ItemSeqNo = pfd.ItemSeqNo " & _
                                            "WHERE ph.IsDeleted = 0 And pd.IsDeleted = 0 AND ph.ProductionNo = @ProductionNo " & _
                                         "end " & _
                                         "else " & _

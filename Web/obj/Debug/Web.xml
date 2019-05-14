@@ -6,7 +6,15 @@ Web
 </name>
 </assembly>
 <members>
-<member name="F:Raven.Web.CRReportViewer.form1">
+<member name="F:Raven.Web.Logout.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Raven.Web.CRReportViewer.form1">
 	<summary>
 form1 control.
 </summary>
@@ -321,14 +329,6 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:Raven.CSSToolbar.lblMenuID">
 	<summary>
 lblMenuID control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Raven.Web.Logout.Form1">
-	<summary>
-Form1 control.
 </summary>
 	<remarks>
 Auto-generated field.

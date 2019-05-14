@@ -30,30 +30,19 @@ Namespace Raven.Web.Secure.Master
 
         Private ModuleId As String = "220"
 
-        'header
-
-        
         Protected WithEvents txtItemNameHd As System.Web.UI.WebControls.TextBox
         Protected WithEvents txtDescriptionHd As System.Web.UI.WebControls.TextBox
         Protected WithEvents txtFormulaName As System.Web.UI.WebControls.TextBox
-
-
         Protected WithEvents RadComboBoxProductionFormulaID As RadComboBox
         Protected WithEvents RadComboBoxItemSeqNoHd As RadComboBox
-
-
         Protected WithEvents Toolbar As CSSToolbar
-
-
         'detail
-
         Protected WithEvents txtItemName As System.Web.UI.WebControls.TextBox
         Protected WithEvents txtID As System.Web.UI.WebControls.TextBox
-
         Protected WithEvents ddlItemUnitID As System.Web.UI.WebControls.DropDownList
         Protected WithEvents txtItemFactor As System.Web.UI.WebControls.TextBox
         Protected WithEvents txtQty As System.Web.UI.WebControls.TextBox
-
+        Protected WithEvents chkIsAllowEditQty As System.Web.UI.WebControls.CheckBox
         Protected WithEvents lbtnNewDetail As System.Web.UI.WebControls.LinkButton
         Protected WithEvents lbtnSaveDetail As System.Web.UI.WebControls.LinkButton
 
@@ -201,6 +190,7 @@ Namespace Raven.Web.Secure.Master
                     _Deletedt(txtID.Text.Trim)
             End Select
         End Sub
+
         Private Sub RadGridProductionFormula_ItemCreated(ByVal sender As Object, ByVal e As DataGridItemEventArgs) Handles RadGridProductionFormula.ItemCreated
             Select Case e.Item.ItemType
                 Case ListItemType.AlternatingItem, ListItemType.Item
@@ -260,7 +250,6 @@ GoNext:
         End Sub
 
         Private Sub _Opendt()
-
             Dim br As New BussinessRules.ProductionFormulaDt
             With br
                 .ID = txtID.Text.Trim
@@ -279,6 +268,8 @@ GoNext:
 
                     RadComboBoxItemSeqNo_SelectedIndexChanged(Nothing, Nothing)
                     commonFunction.SelectListItem(ddlItemUnitID, .ItemUnitID)
+                    txtQty.Text = .Qty.ToString.Trim
+                    chkIsAllowEditQty.Checked = .IsAllowEditQty
                     txtItemFactor.Text = Format(.ItemFactor, commonFunction.FORMAT_CURRENCY)
                 Else
                     PrepareScreendt()
@@ -400,6 +391,7 @@ GoNext:
                 .ItemUnitID = ddlItemUnitID.SelectedValue.Trim
                 .ItemFactor = CDec(txtItemFactor.Text.Trim)
                 .Qty = CDec(txtQty.Text.Trim)
+                .IsAllowEditQty = chkIsAllowEditQty.Checked
 
                 .UserInsert = MyBase.LoggedOnUserID.Trim
                 .UserUpdate = MyBase.LoggedOnUserID.Trim
@@ -527,6 +519,7 @@ GoNext:
             ddlItemUnitID.Items.Clear()
             txtItemFactor.Text = "1"
             txtQty.Text = Format(1, commonFunction.FORMAT_CURRENCY)
+            chkIsAllowEditQty.Checked = False
         End Sub
 
         Private Sub LoadProductionFormula(ByVal Filter As String)

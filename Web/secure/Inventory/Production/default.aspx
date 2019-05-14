@@ -325,18 +325,27 @@
                                                                     <asp:TemplateColumn runat="server" HeaderText="Qty" ItemStyle-HorizontalAlign="Right"
                                                                         HeaderStyle-HorizontalAlign="Right">
                                                                         <ItemTemplate>
-                                                                            <asp:Label runat="server" ID="_lblQty" Text='<%# format(DataBinder.Eval(Container.DataItem, "Qty"),"#,##0.00") %>' />
+                                                                            <asp:Label runat="server" ID="_lblQty" Text='<%# format(DataBinder.Eval(Container.DataItem, "Qty"),"#,##0.00") %>'
+                                                                                Visible='<%# Not (DataBinder.Eval(Container.DataItem, "IsAllowEditQty")) %>' />
+                                                                            <asp:TextBox runat="server" ID="_txtQty" CssClass="right" Width="100" Text='<%# format(DataBinder.Eval(Container.DataItem, "Qty"),"#,##0.00") %>'
+                                                                                Visible='<%# DataBinder.Eval(Container.DataItem, "IsAllowEditQty") %>' />
                                                                         </ItemTemplate>
                                                                     </asp:TemplateColumn>
                                                                     <asp:TemplateColumn runat="server" HeaderText="Item Unit">
                                                                         <ItemTemplate>
-                                                                            <asp:Label runat="server" ID="_lblItemUnit" Text='<%# DataBinder.Eval(Container.DataItem, "ItemUnitID") %>' />
+                                                                            <asp:Label runat="server" ID="_lblItemUnit" Text='<%# DataBinder.Eval(Container.DataItem, "ItemUnitID") %>' />                                                                            
                                                                         </ItemTemplate>
                                                                     </asp:TemplateColumn>
                                                                     <asp:TemplateColumn runat="server" HeaderText="Item Factor" ItemStyle-HorizontalAlign="Right"
                                                                         HeaderStyle-HorizontalAlign="Right">
                                                                         <ItemTemplate>
                                                                             <asp:Label runat="server" ID="_lblItemFactor" Text='<%# format(DataBinder.Eval(Container.DataItem, "ItemFactor"),"#,##0.00") %>' />
+                                                                        </ItemTemplate>
+                                                                    </asp:TemplateColumn>
+                                                                    <asp:TemplateColumn runat="server" HeaderText="Allow Edit Qty" ItemStyle-HorizontalAlign="Center"
+                                                                        HeaderStyle-HorizontalAlign="Center">
+                                                                        <ItemTemplate>
+                                                                            <asp:CheckBox runat="server" ID="_chkIsAllowEditQty" Enabled="false" Checked='<%# DataBinder.Eval(Container.DataItem, "IsAllowEditQty") %>' />
                                                                         </ItemTemplate>
                                                                     </asp:TemplateColumn>
                                                                 </Columns>

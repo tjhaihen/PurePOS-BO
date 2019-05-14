@@ -342,6 +342,14 @@
                                                                             Width="70%"></asp:TextBox>
                                                                     </td>
                                                                 </tr>
+                                                                <tr>
+                                                                    <td width="30%">
+                                                                        <asp:Label ID="lblIsAllowEditQtyCaption" runat="server" Text="Is Allow Edit Qty?"></asp:Label>
+                                                                    </td>
+                                                                    <td width="70%">
+                                                                        <asp:CheckBox ID="chkIsAllowEditQty" runat="server" />
+                                                                    </td>
+                                                                </tr>
                                                             </table>
                                                         </td>
                                                         <td valign="top" width="33%">
@@ -422,6 +430,12 @@
                                                                         ItemStyle-HorizontalAlign="Right">
                                                                         <ItemTemplate>
                                                                             <asp:Label runat="server" ID="_lblItemFactor" Text='<%# format(DataBinder.Eval(Container.DataItem, "ItemFactor"),"#,##0.00") %>' />
+                                                                        </ItemTemplate>
+                                                                    </asp:TemplateColumn>
+                                                                    <asp:TemplateColumn runat="server" HeaderText="Allow Edit Qty" HeaderStyle-HorizontalAlign="Center"
+                                                                        ItemStyle-HorizontalAlign="Center">
+                                                                        <ItemTemplate>
+                                                                            <asp:CheckBox runat="server" ID="_chkIsAllowEditQty" Enabled="false" Checked='<%# DataBinder.Eval(Container.DataItem, "IsAllowEditQty") %>' />
                                                                         </ItemTemplate>
                                                                     </asp:TemplateColumn>
                                                                 </Columns>

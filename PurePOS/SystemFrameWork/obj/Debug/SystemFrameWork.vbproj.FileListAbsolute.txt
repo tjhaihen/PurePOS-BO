@@ -17,3 +17,9 @@ D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\SystemFrameWork\bin\Raven.Syste
 D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\SystemFrameWork\obj\Debug\Raven.SystemFrameWork.dll
 D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\SystemFrameWork\obj\Debug\Raven.SystemFrameWork.xml
 D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\SystemFrameWork\obj\Debug\Raven.SystemFrameWork.pdb
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\SystemFrameWork\bin\Raven.SystemFrameWork.dll
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\SystemFrameWork\bin\Raven.SystemFrameWork.pdb
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\SystemFrameWork\bin\Raven.SystemFrameWork.xml
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\SystemFrameWork\obj\Debug\Raven.SystemFrameWork.dll
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\SystemFrameWork\obj\Debug\Raven.SystemFrameWork.xml
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\SystemFrameWork\obj\Debug\Raven.SystemFrameWork.pdb

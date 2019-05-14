@@ -315,15 +315,21 @@ GoNext:
                 For Each gitm In RadGridProduction.Items
                     Dim _lblItemSeqNo As Label = CType(gitm.FindControl("_lblItemSeqNo"), Label)
                     Dim _lblQty As Label = CType(gitm.FindControl("_lblQty"), Label)
+                    Dim _txtQty As TextBox = CType(gitm.FindControl("_txtQty"), TextBox)
                     Dim _lblItemUnit As Label = CType(gitm.FindControl("_lblItemUnit"), Label)
                     Dim _lblItemFactor As Label = CType(gitm.FindControl("_lblItemFactor"), Label)
+                    Dim _chkIsAllowEditQty As CheckBox = CType(gitm.FindControl("_chkIsAllowEditQty"), CheckBox)
 
                     rowCount += 1
 
                     Dim row As DataRow = tblTmp.NewRow
                     row("ItemSeqNo") = CType(Trim(_lblItemSeqNo.Text.Trim), String)
                     row("ItemUnitID") = CType(Trim(_lblItemUnit.Text.Trim), String)
-                    row("Qty") = CType(_lblQty.Text.Trim, Double)
+                    If _chkIsAllowEditQty.Checked Then
+                        row("Qty") = CType(_txtQty.Text.Trim, Double)
+                    Else
+                        row("Qty") = CType(_lblQty.Text.Trim, Double)
+                    End If
                     row("ItemFactor") = CType(Trim(_lblItemFactor.Text.Trim), Double)
 
                     tblTmp.Rows.Add(row)

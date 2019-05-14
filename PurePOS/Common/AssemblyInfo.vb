@@ -14,7 +14,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyCopyright("")> 
 <Assembly: AssemblyTrademark("")> 
 <Assembly: CLSCompliant(True)> 
-<Assembly: AssemblyKeyFileAttribute("C:\CAS\Secure.snk")> 
+'<Assembly: AssemblyKeyFileAttribute("C:\CAS\Secure.snk")> 
 '<Assembly: AssemblyKeyFileAttribute("\\IBM\CAS\Secure.snk")> 
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM

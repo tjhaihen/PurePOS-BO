@@ -50,3 +50,16 @@ D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\Security\obj\Debug\Security.vbp
 D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\Security\obj\Debug\Raven.Security.dll
 D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\Security\obj\Debug\Raven.Security.xml
 D:\_personal\_PurePOS\_source_PurePOS_BO\PurePOS\Security\obj\Debug\Raven.Security.pdb
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\Security\bin\Raven.Security.dll
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\Security\bin\Raven.Security.pdb
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\Security\bin\Raven.Security.xml
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\Security\bin\Raven.Common.dll
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\Security\bin\Raven.SystemFrameWork.dll
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\Security\bin\Raven.Common.pdb
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\Security\bin\Raven.Common.xml
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\Security\bin\Raven.SystemFrameWork.pdb
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\Security\bin\Raven.SystemFrameWork.xml
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\Security\obj\Debug\Security.vbprojResolveAssemblyReference.cache
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\Security\obj\Debug\Raven.Security.dll
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\Security\obj\Debug\Raven.Security.xml
+C:\_MEDINFRAS\_hendy\PUREPOS\PurePOS-BO\PurePOS\Security\obj\Debug\Raven.Security.pdb
